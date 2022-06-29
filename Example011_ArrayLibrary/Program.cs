@@ -40,6 +40,7 @@ int IndexOf(int[] collection, int find)
     }
     return position;
 }
+
 int[] array = new int[10];
 
 

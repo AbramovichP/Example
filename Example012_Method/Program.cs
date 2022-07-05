@@ -135,7 +135,7 @@ void SelectionSort(int[] array)
         int minPosition = i;
         for(int j = i + 1; j < array.Length; j++)
         {
-            if(array[j]< array[minPosition]) // меняя знак с "<" на ">" мы меняем порядок сортировки массива.
+            if(array[j] < array[minPosition]) // меняя знак с "<" на ">" мы меняем порядок сортировки массива.
                 minPosition = j;
         }
 
